@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.topuz.notebookwidget.Info">
+    <EditText
+        android:layout_marginTop="50dp"
+
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:minLines="1"
+        android:maxLines="4"
+
+        android:drawableTint="@color/colorAccent"
+        android:inputType="textPersonName"
+        android:hint="Notunuz..." />
+
+    <Button
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:background="@drawable/buton"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Kaydet" />
+
+    <TextView
+        android:textColor="#234EA3"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/textView3"
+        android:layout_margin="20dp"
+        android:textSize="13dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="byTopuz" />
+</LinearLayout>
